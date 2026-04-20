@@ -17,6 +17,8 @@ dist/
 # IDE settings
 idea/
 vscode/
+*/.vscode/*
+.vscode/
 # Jupyter Notebook checkpoints
 ipynb_checkpoints/
 # Test coverage reports
@@ -26,3 +28,10 @@ nox/
 # Django/Flask specific files
 *.sqlite3
 instance/
+
+db/icdar2015
+*bin
+*pth
+*tar
+*tar.gz
+*tfevents*
